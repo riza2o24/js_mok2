@@ -1,0 +1,97 @@
+/* Mulish */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Mulish", sans-serif;
+}
+
+
+.containet{
+    width: 1440px;
+    max-width: 1440px;
+    margin: auto;  
+    padding: 0 30px; 
+}
+
+
+
+/* header */
+.header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     box-shadow: 0 5px 10px #9a9ab01a;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo__text{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.nav__text{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+
+.nav__text4{
+    font-size: 12px;
+    font-weight: 400;
+    color: #9A9AB0;
+}
+
+
+/* hero */
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.hero__box{
+    width: 112px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    box-shadow: 5px 10px 20px #9a9ab01a;
+
+}
+
+
+.hero__box--img{
+    display:block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto 50px auto;
+}
+
+.hero__box--img2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 200px auto 50px auto;
+}
