@@ -68,7 +68,6 @@
 .hero{
     display: flex;
     justify-content: space-between;
-    
 }
 
 .hero__box{
@@ -94,4 +93,14 @@
     align-items: center;
     justify-content: center;
     margin: 200px auto 50px auto;
+}
+
+
+.hero2{
+    width: 832px;
+    height: 1125px;
+    box-shadow: 0 0 40px #42424217;
+    border-radius: 8px;
+    margin-top: 40px;
+    padding: 24px 16px;
 }
