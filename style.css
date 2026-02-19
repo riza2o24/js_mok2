@@ -96,6 +96,8 @@
 }
 
 
+
+/* hero2 */
 .hero2{
     width: 832px;
     height: 1125px;
@@ -103,4 +105,54 @@
     border-radius: 8px;
     margin-top: 40px;
     padding: 24px 16px;
+}
+
+
+.qutii{
+    width: 800px;
+    height: 40px;
+    background-color: #F7F7FC;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-bottom: 35px;
+    border-radius: 10px;
+}
+
+
+.quti{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.quti__paragrf{
+    font-size: 14px;
+    font-weight: 400;
+    color: #9A9AB0;
+}
+
+.lii{
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    justify-content: center;
+}
+
+
+.lii__lii{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.lii__li{
+    font-size: 16px;
+    font-weight: 700;
+    color: #9A9AB0;
+}
+
+.edf{
+    width: 800px;
 }
