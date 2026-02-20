@@ -92,18 +92,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 200px auto 50px auto;
+    margin: 600px auto 50px auto;
 }
 
 
 
 .box{
     width: 1200px;
-    height: auto;
+    height: 1300px;
     box-shadow: 0 0 40px #42424217;
     padding: 30px 20px;
     margin-top: 40px;
     margin-right: 30px;
+    border-radius: 18px;
+    margin-bottom: 50px;
 }
 
 .flex{
