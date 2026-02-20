@@ -5,7 +5,7 @@ fetch("https://dummyjson.com/products")
 .then(date => {
     
     
-    date.products.forEach(item =>{
+    date.products.slice(0,6).forEach(item =>{
         const div=document.createElement("div")
         div.className="wewe"
 
